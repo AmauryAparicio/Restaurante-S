@@ -1,0 +1,6 @@
+@mixin fade($color, $amount){
+  color: fade-out($color, $amount);
+}
+@mixin bc-fade($color, $amount) {
+  background: fade-out($color, $amount);
+}
